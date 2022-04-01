@@ -38,7 +38,7 @@ header{
 	background-color: #E8F1F2;
     border-radius: 0 0 1em 1em;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
-
+	
 }
 header>div{
     width: 100%;
@@ -79,6 +79,21 @@ h2{
 
     background-color:  #E8F1F2;
 	border: 0.4em solid #E8F1F2;
+}
+.first>h3{
+	text-align: center;
+	font-size: 1.2em;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+	background-color: #D5D5D5;
+	border: 0.4em solid #D5D5D5;
+}
+.first>h4{
+	margin-top: 0em;
+	text-align: center;
+	font-size: medium;
+    background-color: #D5D5D5;
+	border: 0.4em solid #D5D5D5;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
 }
 /* #4f4d5a */
 p{
