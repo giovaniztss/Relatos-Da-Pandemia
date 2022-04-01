@@ -100,14 +100,18 @@ footer{
 	border-radius: 1.2em 1.2em 0 0;
     
 }
-footer>p{
-    margin: 3px ;
+#pfv{
+    width: 100%;
+}
+footer>div>p{
     text-align: center;
+    font-family: Courier Prime;
+    font-size: large;
+    padding: 0em;
+    text-align: center;
+    font-size: small;
 }
-footer>p>a{
-    text-decoration: solid;
-    color: rgb(56, 117, 167);
-}
+
 #espaco{
     width: 100%;
     display: flex;
@@ -217,11 +221,12 @@ footer>p>a{
     min-height: 20em;
 }
 #imagensrelatos{
+    width: 100% ;
     margin-top: 1em;
-    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 #imagenssunshine{
     margin-top: 1em;
@@ -236,7 +241,7 @@ footer>p>a{
     #falas{
         margin-top: 1em;
         background-color: #E8F1F2;
-        width: 100%;
+        width: 70%;
         border-radius: 1.2em;   
         padding: 10px;
         box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
@@ -323,7 +328,6 @@ p{
 
 div.polaroid{
     display: block;
-    
     text-align: center;   
     background-color: white;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
@@ -429,7 +433,9 @@ div.container1{
     }
     section{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
        
 
@@ -470,6 +476,11 @@ div.container1{
         max-height: 30em;
     
     }
+    .imggl{
+        width: 310px;
+    }
+        
+    
     div.polaroid{
         width: 340px;
     }
@@ -484,15 +495,14 @@ div.container1{
         justify-content: row  ;
         text-indent: 0.5em;
         text-align: justify;
-        width: 85%;
+        width: 90%;
     
     }
         #imagensrelatos{
             margin-top: 1em;
-            width: 100%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             }
             #esq>p{
         
@@ -512,6 +522,7 @@ div.container1{
                 display: block;
                 text-align: center;   
                 
+
             }   
 
 

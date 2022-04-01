@@ -56,6 +56,18 @@ header>nav{
 	flex-wrap:wrap;
 	text-decoration: none;
 }
+footer>p>a:link{
+    text-decoration: none;
+    color: rgb(56, 117, 167);
+}
+footer>div>p{
+    text-align: center;
+    font-family: Courier Prime;
+    font-size: large;
+    padding: 0em;
+    text-align: center;
+    font-size: medium       ;
+}
 #esq{
     margin-top: 1em;
     width: 75%;
@@ -131,7 +143,7 @@ p{
 	font-size: medium; 
 	font-family: Courier Prime;
     font-size: large;
-    color: black;
+    color: black;   
     width: 75%;
 }
 article{
