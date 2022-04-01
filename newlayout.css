@@ -111,8 +111,8 @@ section{
 }
 a.indexlinks:link, a.indexlinks:link{
 	text-decoration: none;
-	background-color: #4f4d5a;
-
+	background-color: #E8F1F2;
+	
 		padding: 1em;
 		color: black;
 		font-family: Special Elite;
@@ -149,8 +149,7 @@ a:hover{
 	text-align: center;
 	text-decoration: none;
 	
-	background-color: #4f4d5a;
-
+	background-color: #E8F1F2;
 
 	border: 0.4em solid #4f4d5a;
 }
