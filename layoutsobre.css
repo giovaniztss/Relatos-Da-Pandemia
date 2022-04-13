@@ -7,7 +7,7 @@
 		src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+2:wght@500&family=Cormorant:ital,wght@1,300&family=Courier+Prime:ital@1&family=Special+Elite&display=swap');
 }
 body{
-    background-color: #4f4d5a;
+    background-color: #f9cb9c;
 	margin: 0 2em 0 2em ;
     padding: 0px;
   
@@ -139,7 +139,6 @@ h2{
 }
 p{
     text-align: justify;
-    text-indent: 1.5em;
 	font-size: medium; 
 	font-family: Courier Prime;
     font-size: large;
