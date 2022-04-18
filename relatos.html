@@ -31,6 +31,18 @@ function abrirModal1()
   document.getElementById('fundo1').style.display = 'block';
   document.getElementById('modal1').style.display = 'block';
 }
+function fecharModal2()
+{
+  document.getElementById('fundo2').style.display = 'none';
+  document.getElementById('modal2').style.display = 'none';
+}
+
+function abrirModal2()
+{
+  document.getElementById('fundo2').style.display = 'block';
+  document.getElementById('modal2').style.display = 'block';
+}
+
 
 
     </script>
@@ -69,7 +81,7 @@ function abrirModal1()
                 </div>
                     <div id="fundo"></div>
                     <div id="modal">
-                        <p class="pmodal">A partir da Modernidade, conforme argumenta Prates (2014) o processo de escolarização transformou crianças e jovens em alunos, criando assim essa categoria de sujeito.</p>
+                        <p class="pmodal">A partir da Modernidade, conforme Sacristán (2005) o processo de escolarização transformou crianças e jovens em alunos, criando assim essa categoria de sujeito.</p>
                         <div>
                             <a href="#" class="fechar" onclick="fecharModal();">voltar</a>
 
@@ -102,8 +114,14 @@ function abrirModal1()
                             <div class="polaroid">
                                 <img class="imgif" src="imagens/if.png" alt="Fachada Instituto Federal Sul-Rio-Grandense Campus Charqueadas">
                                 <div class="container">
-                                    <p>O IFSul - Campus Charqueadas</p>
-                                </div>
+                                    <p><a href="#" class="abrir" onclick="abrirModal2();">O IFSul - Campus Charqueadas</a></p>
+                                                    <div id="fundo2"></div>
+                                    <div id="modal2">
+                                        <p class="pmodal">Os IFs são instituições especializadas na oferta de Educação Profissional e Tecnológica -EPT, que tem como missão, a formação integral de seus alunos..</p>
+                                    <div>
+                                        <a href="#" class="fechar" onclick="fecharModal2();">voltar</a>
+                                    </div>                  
+                                     </div>
                                 <p class="credit">Foto: Samira Borba</p>
 
                             </div>

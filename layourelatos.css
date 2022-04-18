@@ -81,7 +81,7 @@ header>nav{
 }
 article{
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     margin-top: 1em;
 }
 section{
@@ -424,7 +424,7 @@ div.container1{
     margin-left: 15px;
 }
 /*modal praticado*/
-#fundo, #fundo1 {
+#fundo, #fundo1,#fundo2 {
     opacity: 0.4;
     background-color: #000;
     position: fixed;
@@ -436,7 +436,7 @@ div.container1{
     display: none;
   }
   
-  #modal, #modal1 {
+  #modal, #modal1,#modal2 {
     width: 300px;
     height: max-content;
     left: 50%;
@@ -546,7 +546,7 @@ div.container1{
         flex-wrap: wrap; 
        
     }
-    #modal,#modal1 {
+    #modal,#modal1, #modal2{
         width: 250px;
         height: fit-content;
         left: 37%;
